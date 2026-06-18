@@ -1,0 +1,25 @@
+{
+  "name": "ads_projeto_fase_4",
+  "version": "1.0.0",
+  "description": "Projeto para Análise e Desenvolvimento de Sistemas, com a implementação de uma página relativa ao projeto da fintech, desenvolvido durante o ano. Para essa etapa, serão utilizados html e css com tailwind e utilização de controle de versionamento Git/Github",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusgarcia87/ADS_projeto_fase_4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/viniciusgarcia87/ADS_projeto_fase_4/issues"
+  },
+  "homepage": "https://github.com/viniciusgarcia87/ADS_projeto_fase_4#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "tailwindcss": "^4.3.1"
+  }
+}
