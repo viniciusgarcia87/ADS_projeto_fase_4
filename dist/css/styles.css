@@ -517,7 +517,7 @@
   .max-h-\[clamp\(5dvh\,10dvh\,10rem\)\] {
     max-height: clamp(5dvh, 10dvh, 10rem);
   }
-  .max-h-\[clamp\(5rem\,\,12rem\)\] {
+  .max-h-\[clamp\(5rem\,2vw\,12rem\)\] {
     max-height: clamp(5rem, 2vw, 12rem);
   }
   .max-h-\[clamp\(5rem\,2vw\,12rem\)\] {
@@ -1367,7 +1367,7 @@
     font-size: clamp(1.rem, 1.vh, 2.5rem);
   }
   .text-\[clamp\(1px\,10dv\,3px\)\] {
-    font-size: clamp(1px, 10, 3px);
+    font-size: clamp(1px, 10dv, 3px);
   }
   .text-\[clamp\(1px\,10dv\,3px\)\] {
     font-size: clamp(1px, 10dv, 3px);
@@ -1399,7 +1399,7 @@
   .text-\[clamp\(1rem\,3vw\,3px\)\] {
     font-size: clamp(1rem, 3vw, 3px);
   }
-  .text-\[clamp\(1rem\,3vw\,3rem\)\] {
+  .text-\[clamp\(1rem\,\,3rem\)\] {
     font-size: clamp(1rem, 3vw, 3rem);
   }
   .text-\[clamp\(1rem\,0\.7rem\+1\.1vh\,2\.4rem\)\] {
