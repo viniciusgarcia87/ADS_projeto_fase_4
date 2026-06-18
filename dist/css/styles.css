@@ -1387,20 +1387,20 @@
   .text-\[clamp\(1rem\,\)\] {
     font-size: clamp(1rem, );
   }
-  .text-\[clamp\(1rem\,2vw\,2rem\)\] {
-    font-size: clamp(1rem, 2vw, 2rem);
+  .text-\[clamp\(1rem\,2dv\,2rem\)\] {
+    font-size: clamp(1rem, 2dv, 2rem);
   }
-  .text-\[clamp\(1rem\,2vw\,2rem\)\] {
-    font-size: clamp(1rem, 2vw, 2rem);
+  .text-\[clamp\(1rem\,2dv\,2rem\)\] {
+    font-size: clamp(1rem, 2dv, 2rem);
   }
-  .text-\[clamp\(1rem\,2vw\,2rem\)\] {
-    font-size: clamp(1rem, 2vw, 2rem);
+  .text-\[clamp\(1rem\,2dv\,2rem\)\] {
+    font-size: clamp(1rem, 2dv, 2rem);
   }
-  .text-\[clamp\(1rem\,3vw\,3px\)\] {
-    font-size: clamp(1rem, 3vw, 3px);
+  .text-\[clamp\(1rem\,3dv\,3px\)\] {
+    font-size: clamp(1rem, 3dv, 3px);
   }
-  .text-\[clamp\(1rem\,\,3rem\)\] {
-    font-size: clamp(1rem, 3vw, 3rem);
+  .text-\[clamp\(1rem\,3dv\,3rem\)\] {
+    font-size: clamp(1rem, 3dv, 3rem);
   }
   .text-\[clamp\(1rem\,0\.7rem\+1\.1vh\,2\.4rem\)\] {
     font-size: clamp(1rem, 0.7rem + 1.1vh, 2.4rem);
@@ -1654,6 +1654,7 @@
     }
   }
 }
+
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
